@@ -1,0 +1,76 @@
+button {
+    position: fixed;
+    margin-top: -100px;
+    margin-left: 900px;
+}
+
+body {
+    line-height: 1.4;
+    max-width: 800px;
+    text-align: justify;
+    font-family: Open Sans;
+    margin: 50px auto;
+    color: rgb(75,75,75);
+    background-color: #EEEEEE;
+    font-size: 16px;
+}
+
+.tiny {
+    font-size: 7px;
+}
+
+.colored {
+    color: #85144b;
+}
+
+.inlineSvg {
+    display: inline-block;
+    height: 1em;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.forbidden:hover {
+    cursor: not-allowed;
+}
+
+#shittyBlue {
+    color: #0000EE;
+}
+
+#violetish {
+    color: #551a8b;
+}
+
+img[alt*="Kopimi"] {
+    display: block;
+    height: 3em;
+    margin: auto;
+}
+
+img[alt*="cat"] {
+    width: 400px;
+}
+
+#blockPictureText { 
+    display: flex;
+}
+
+#textRight {
+    padding-left: 30px;
+}
+
+figure {
+    margin: 0px;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+#pNewFont {
+    font-family: monospace;
+    font-size: 14px;
+}
