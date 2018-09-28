@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <script src="popUp.js"></script>
     <script src="colorAnimation.js"></script>
+    <script src="psychedelic.js"></script>
 </head>
 
-<body>
+<body id="body">
 
     <span class="tiny"></span>
     <span class="colored"></span>
@@ -19,8 +20,8 @@
         <aside>Really, it is.</aside>
     </header>
 
-    <button>Psychédélique</button>
-
+    <button onclick="switchNormalPsy()">Switch</button>
+    
     <h2 class="colorAnimation">Seriously, you guys think that a fucking website doesn't need some styling?</h2>
     <p>You probably build websites using vim and feeling hardcore. You think your 4.99KB <span class="colored">motherfuckingwebsite</span>(.com) is going to get you some fucking award to put on your damn footer as a link. You think your fucking default font is gonna make your website run even on a toaster.</p>
     <p><span id="boldUnderlined">WRONG</span>, motherfucker.</p>
@@ -69,7 +70,7 @@
     </ul>
 
     <h2>Put even less contrast</h2>
-    <p>Yeah, a #444 is cool but a #454545 is better.</p>
+    <p>Yeah, a <strong id="color1">#444 is cool</strong> but a <strong id="color2">#454545 is better</strong>.</p>
     <p>We don't need to break our eyes while looking at a <span class="colored">motherfuckingwebsite</span>.</p>
 
     <h2>Size matters, yeah, but don't exaggerate</h2>
